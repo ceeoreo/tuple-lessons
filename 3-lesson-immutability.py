@@ -8,4 +8,6 @@ my_tuple.append(['pizza', 'cookies', 'lasagna'])
 # Won't work bc tuples are immutable
 
 my_tuple2 = my_tuple + (['pizza', 'cookies', 'lasagna'],)
+# One item tuple here 
+
 print(my_tuple2)
